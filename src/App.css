@@ -1,0 +1,42 @@
+.btn-primary{
+    padding: 0.75rem 1.5rem;
+    font-size: 1em;
+    font-family: var(--main);
+    border-radius: 25px;
+    border: 2px solid var(--secondary);
+    background-color: transparent;
+    color: var(--secondary);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.btn-primary:hover{
+    background-color: var(--third);
+    border: 2px solid var(--third);
+}
+/* .scrollbar-thumb{
+    background-color: var(--primary) !important;
+    border-radius: 15px;
+}
+.scrollbar-track-y{
+    width: 12px;
+    background-color: transparent !important;
+} */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--secondary); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }

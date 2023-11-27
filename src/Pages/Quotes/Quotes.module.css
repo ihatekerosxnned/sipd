@@ -1,0 +1,17 @@
+.q_section {
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100dvh;
+  /* background-color: var(--background); */
+}
+.container{
+  width: 90%;
+}
+.container h3 {
+  font-weight: 500;
+  font-family: var(--main);
+  color: var(--secondary);
+  text-transform: none;
+}

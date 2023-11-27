@@ -1,0 +1,82 @@
+.c_section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 95%;
+  padding: 3rem;
+  background: rgba(48, 46, 46, 0.15);
+
+  border-radius: 25px;
+  margin: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+.container h4 {
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.form_group {
+  width: 55%;
+  padding-right: 2%;
+}
+.form_group .text {
+  padding-right: 10%;
+}
+.form_group h4,
+.form_details h4 {
+  text-align: left;
+}
+.form_group form {
+  padding: 2rem 0;
+}
+.user_box {
+  position: relative;
+}
+
+.user_box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--secondary);
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.user_box textarea {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--secondary);
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  resize: none;
+  height: 15vh;
+}
+/* FORMS DEITALS CSS */
+.form_details {
+  width: 35%;
+}
+.form_details .text {
+  margin-bottom: 2rem;
+}
+.text ul li {
+  display: flex;
+  margin: 1rem 0;
+}
+.text ul li a {
+  text-decoration: none;
+  color: var(--secondary);
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin: 0 1rem;
+}

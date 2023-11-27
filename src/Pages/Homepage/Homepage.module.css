@@ -1,0 +1,84 @@
+.color_sm {
+  width: 35vw;
+  height: 35vw;
+  background-image: linear-gradient(#5a7cbf, #2f4673);
+  opacity: 0.5;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -1;
+  top: 25vh;
+  position: absolute;
+}
+.color_sm1{
+  width: 35vw;
+  height: 35vw;
+  background-image: linear-gradient(#5a7cbf, #2f4673);
+  opacity: 0.5;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -1;
+  top: 895vh;
+  position: absolute;
+}
+.color_lg {
+  width: 50vw;
+  height: 50vw;
+  background-image: linear-gradient(#5a7cbf, #2f4673);
+  opacity: 0.2;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -1;
+  top: 345vh;
+  right: 0;
+  position: absolute;
+}
+.color_lg2{
+  width: 50vw;
+  height: 50vw;
+  background-image: linear-gradient(#5a7cbf, #2f4673);
+  opacity: 0.2;
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: -1;
+  top: 525vh;
+  left: 5%;
+  position: absolute;
+}
+.color_lg3{
+  width: 50vw;
+  height: 50vw;
+  background-image: linear-gradient(#5a7cbf, #2f4673);
+  opacity: 0.2;
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: -1;
+  top: 655vh;
+  right: 0;
+  position: absolute;
+}
+.color_md {
+  width: 40vw;
+  height: 40vw;
+  background-color: #6D7B8C;
+  opacity: 0.2;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -1;
+  top: 125vh;
+  right: 0;
+  position: absolute;
+}
+.color_md2 {
+  width: 40vw;
+  height: 40vw;
+  background-color: var(--background);
+  opacity: 0.2;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -2;
+  top: 805vh;
+  right: 0;
+  position: absolute;
+}
+
+

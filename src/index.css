@@ -1,0 +1,68 @@
+:root {
+  font-family: var(--text);
+  font-weight: 400;
+
+  background-color: var(--background);
+  /* background-image: url(./assets/Images/bodylines1.png);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  color: var(--secondary);
+
+  --primary: #2f4673;
+  --secondary: #d9d9d9;
+  --third: #5A7CBF;
+  --background: #1C1C1C;
+  --backgroundDark: #121212;
+  --main: "General Sans", sans-serif;
+  --sub: "Cabinet Grotesk", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--sub);
+}
+body {
+  height: 100vh;
+}
+h1 {
+  font-size: 22.5vw;
+  font-weight: 700;
+  font-family: var(--main);
+  color: var(--primary);
+  line-height: 1;
+}
+a{
+  font-weight: 400;
+  text-decoration: none;
+  font-family: var(--sub);
+}
+li{
+  list-style: none;
+}
+h2 {
+  font-size: 2.5vw;
+  font-family: var(--sub);
+  font-weight: 500;
+}
+h3 {
+  font-size: 5vw;
+  font-weight: 700;
+  font-family: var(--main);
+  color: var(--secondary);
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 2.5vw;
+  font-weight: 700;
+  font-family: var(--main);
+  color: var(--secondary);
+  text-transform: uppercase;
+}
+p {
+  font-size: 1.5vw;
+  line-height: 1.5;
+  color: var(--secondary);
+  font-family: var(--sub);
+  font-weight: 400;
+}

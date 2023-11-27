@@ -1,0 +1,50 @@
+.p_section {
+  min-height: 100dvh;
+  overflow: hidden;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+/* HOVER CSS HIHI */
+.wrapper {
+  display: grid;
+}
+.wrapper ul li {
+  border-bottom: solid var(--secondary) 0.05rem;
+  position: relative;
+}
+.wrapper ul li .link {
+  display: flex;
+  padding: 1rem 0;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.wrapper ul li .link h4 {
+  display: inline-block;
+  position: relative;
+  font-size: 4vw;
+  text-transform: uppercase;
+}
+/* Image Hover hihi */
+.hover_reveal {
+  position: absolute;
+  width: 25vw;
+  height: 14vw;
+  top: 50%;
+  left: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: 2;
+  transform: scale(0.8);
+  transition: all 0.5s ease-in-out;
+}
+.hover_reveal img {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  transition: transform 0.5s ease-out;
+}
